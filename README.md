@@ -38,6 +38,7 @@ Note:- Taking account pin as base64Encoded with adding extra random 5 Characters
 		3-If withdrawal balance is less then account balance - "You does not have sufficient account balance"
 
 4-Balance Enquiry
+	
 	Endpoint -  /getbalance/{acc_num}/{pin}/ -  /getbalance/100001/cmljaGExMjM0/
 	
 	Sample Response -
