@@ -3,6 +3,7 @@
 API EndPoints -
 
 1-Create Account
+	
 	Endpoint -  /atm/createAccount/
 	Sample Request-{
 				"userfname":"Richa",
@@ -20,6 +21,7 @@ API EndPoints -
 Note:- Taking account pin as base64Encoded with adding extra random 5 Characters before the pin entered by username ex-1234 it will be converted to *****1234 and then base64 encoded
 
 2-Cash Deposit
+	
 	Endpoint -  /depositBalance/{acc_num}/{pin}/{balance}/ -  /depositBalance/100001/cmljaGExMjM0/1000
 	
 	Sample Response - 
