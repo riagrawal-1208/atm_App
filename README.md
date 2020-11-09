@@ -1,5 +1,7 @@
 # atm_App
-API EndPoints - 
+
+API EndPoints -
+
 1-Create Account
 	Endpoint -  /atm/createAccount/
 	Sample Request-{
